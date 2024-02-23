@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'tron';
+	src: local('tron'), url('./tron.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_2576">Text with this font applied</p> */
+.fontsforweb_fontid_2576 {
+	font-family: 'tron' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

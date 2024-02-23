@@ -1,0 +1,252 @@
+@font-face{
+    font-family: "AbandoN";
+    src: url(fonts/AbandoN/AbandoN.woff) format('woff');
+}
+
+@font-face{
+    font-family: "cgf";
+    src: url(fonts/CGFLocustResistance/CGFLocustResistance.woff) format('woff');
+}
+
+@font-face{
+    font-family: "pixel";
+    src: url(fonts/minecrafter20/minecrafter20.woff) format('woff');
+}
+
+@font-face{
+    font-family: "vipesrg";
+    src: url(fonts/VIPESRG/VIPESRG.woff) format('woff');
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    overflow-x: hidden;
+}
+
+.topbox{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 4rem;
+    background-image: url(media/92272b75-dd5d-44fc-b2ed-1b8eb8a5fb16/LinkedIn\ _\ Life\ Tab\ Images.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(27, 27, 27);
+    font-size: 120%;
+    z-index: 6;
+}
+
+.link{
+    color: rgb(229, 229, 229);
+    font-family: vipesrg, arial;
+    padding: 0.5% 1%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    /* border: 1px solid aqua; */
+}
+
+.link:active{
+    color: rgb(153, 56, 56);
+}
+
+.link:hover{
+    color: rgb(9, 9, 9);
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+}
+
+.bg{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-head{
+    height: 100vh;
+    background-image: url(media/video1comp.mp4);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    z-index: 1;
+    width: 23%;
+    height: 70%;
+    border-radius: 10px;
+    transform: translate(-14%,27%);
+}
+
+#vintagetv{
+    position: absolute;
+    /* border: 2px solid wheat; */
+    /* height: 50vh; */
+    scale: 1.4;
+    top: 102%;
+    z-index: 0;
+}
+
+#video-box{
+    display: flex;
+    /* border: 1px solid aqua; */
+    height: 40vh;
+    justify-content: center;
+}
+
+.main-desc{
+    color: rgb(0, 0, 0);
+    font-family: pixel;
+    font-size: 5rem;
+    text-shadow: 0 0 15px whitesmoke;
+    transform: translateY(20%);
+    position: sticky;
+    top:2.5rem;
+    /* width: 100vw; */
+}
+
+.main-desc:hover{
+    font-size: 6rem;
+    color: rgb(247, 224, 153);
+    text-shadow: 0 0 13px rgb(32, 31, 31);
+}
+
+.desc{
+    font-family: AbandoN, Arial;
+    font-size: 4rem;
+    color: rgb(151, 151, 149);
+    text-shadow: 0 0 10px black;
+    position: sticky;
+    top: 4rem;
+    /* height: 45vh;*/
+    width: 100vw;
+    text-align: center;
+    /* border: 2px solid aqua; */
+}
+
+.desc:hover{
+    color: wheat;
+    font-size: 6rem;
+}
+
+.sub-desc{
+    display: block;
+    margin: 2.5% 0 0.5%;
+    font-family: cgf;
+    word-spacing: 2%;
+    font-size: larger;
+    text-shadow: 0 0 10px rgb(67, 66, 66);
+}
+
+.sub-desc:hover{
+    color: rgb(245, 197, 109);
+}
+
+section{
+    color: rgb(228, 228, 228);
+    background-color: rgb(0, 0, 0);
+    padding: 5rem 8rem;
+    text-align: justify;
+}
+
+.text{
+    margin: 3%;
+    margin-top: 1%;
+    background-color: rgb(16, 16, 16);
+    padding: 2rem;
+    /* font-size: ; */
+}
+
+
+.bg1{
+    background-image: url(media/bg1.jpeg);
+}
+
+.bg2{
+    background-image: url(media/bg2.jpeg);
+}
+
+.bg3{
+    background-image: url(media/bg3.jpeg);
+}
+
+.bg4{
+    background-image: url(media/bg4.jpeg);
+}
+
+.bg5{
+    background-image: url(media/bg5.png);
+}
+
+.footer{
+    z-index: 9;
+    background-image: url(media/photo1.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    text-align: center;
+    vertical-align: bottom;
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* justify-content: baseline; */
+}
+
+.icon{
+    width: 3rem;
+    transform: translateY(130%);
+}
+
+#linkedin{
+    transform: translateY(140%);
+}
+
+#twitter{
+    transform: translateY(107%);
+    scale: 1.2;
+}
+
+#insta{
+    scale: 1.05;
+    transform: translateY(123%);
+}
+
+#fb{
+    scale: 0.9;
+    transform: translateY(140%);
+}
+
+#mail{
+    scale: 1.1;
+    transform: translateY(115%);
+}
+
+#call{
+    transform: translateY(125%);
+}
+
+#contact{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+}
+/* 
+.icon:hover{
+    scale: 1.5;
+    transform: translateY(110%);
+} */
